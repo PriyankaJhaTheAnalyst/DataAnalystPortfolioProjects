@@ -3,6 +3,8 @@ Covid 19 Data Exploration
 Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 */
 
+--------------------------------------------------------------------------------------------------------------------------
+
 
 select *
 from coviddeaths_csv 
@@ -13,7 +15,7 @@ select location , total_cases , new_cases , total_deaths , population
 from coviddeaths_csv 
 order by 1 ,2
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Looking at Total Cases vs Total Deaths*/
@@ -24,7 +26,7 @@ from coviddeaths_csv
 where location = 'Afghanistan'
 order by 1 ,2
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Looking at Total Cases vs Population*/
@@ -34,7 +36,7 @@ from coviddeaths_csv
 where location = 'Africa'
 order by 1 ,2
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Looking at Countries with Highest Infection rate compared to Population*/
@@ -45,7 +47,7 @@ from coviddeaths_csv
 group by location, population 
 order by percent_population_infected desc 
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Showing Countries with Highest Death Count per Population*/
@@ -56,6 +58,7 @@ where continent  is not null
 group by location 
 order by total_death_count desc 
 
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*BREAKING THINGS DOWN BY CONTINENT
@@ -68,7 +71,7 @@ Where continent is not null
 Group by continent
 order by total_death_count desc
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*GLOBAL NUMBERS*/
@@ -79,6 +82,7 @@ from coviddeaths_csv
 where continent is not null  
 group by `date` 
 
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Looking at Total Population vs Vaccination*/
@@ -90,7 +94,7 @@ join covidvacinations_csv cv
 		and cd.`date` = cv.`date` 
 where cv.new_vaccinations is not null 
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Using CTE*/
@@ -113,7 +117,7 @@ where cv.new_vaccinations is not null
 select *, (RollingPeopleVaccinated/Population)*100 as vaccination_percentage
 from PopsVsVacc
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*TEMP TABLE*/
@@ -142,7 +146,7 @@ where cv.new_vaccinations is not null
 select *, (RollingPeopleVaccinated/Population)*100 as vaccination_percentage
 from percentage_population_vaccinated
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Creating View to store data for later visualization*/
@@ -156,3 +160,6 @@ join covidvacinations_csv cv
 	on cd.location = cv.location 
 	and cd.`date` = cv.`date` 
 where cv.new_vaccinations is not null
+
+--------------------------------------------------------------------------------------------------------------------------
+
