@@ -58,6 +58,18 @@ order by total_death_count desc
 
 
 
+/*BREAKING THINGS DOWN BY CONTINENT
+
+Showing contintents with the highest death count per population*/
+
+Select continent, MAX(cast(Total_deaths as int)) as total_death_count
+From coviddeaths_csv
+Where continent is not null 
+Group by continent
+order by total_death_count desc
+
+
+
 
 /*GLOBAL NUMBERS*/
 
@@ -144,7 +156,3 @@ join covidvacinations_csv cv
 	on cd.location = cv.location 
 	and cd.`date` = cv.`date` 
 where cv.new_vaccinations is not null
-
-
-select * 
-from percentage_population_vaccinated
