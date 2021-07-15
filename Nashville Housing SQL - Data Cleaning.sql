@@ -7,6 +7,7 @@ Cleaning Data in SQL Queries
 select *
 from nashville_housing 
 
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Standardize Date Format*/
@@ -23,7 +24,7 @@ from nashville_housing
 update nashville_housing 
 set `Sale Date`= convert(`Sale Date`, date)
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Populate Property Address Data*/
@@ -53,6 +54,7 @@ join nashville_housing b
 	and a.Column1 != b.Column1 
 where a.`Property Address` is null 
 
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Breaking out Address into Individual Columns (Address, City, State)*/
@@ -87,6 +89,7 @@ set `Property City` = substring(`Property Address` , locate(',', `Property Addre
 select `Owner Address`
 from nashville_housing 
 
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*CREATING A SPLIT STRING FUNCTION TO SPLIT THE OWNER ADDRESS*/
@@ -134,7 +137,7 @@ set `State` varchar(255);
 update nashville_housing 
 set `State` = SPLIT_STR(`Owner Address`, ',', 3)
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
 /*Change Y and N to Yes and No in `Sold as Vacant` */
@@ -159,9 +162,8 @@ set `Sold As Vacant`  = case
 	when `Sold As Vacant` = 'Y' then 'Yes'
 	when `Sold As Vacant` = 'N' then 'No'
 	end as `Sold As Vacant`
-
 	
-	
+--------------------------------------------------------------------------------------------------------------------------	
 	
 	
 /*Remove Duplicate*/
@@ -187,7 +189,7 @@ delete
 from RowNumCTE
 where row_num > 1;
 	
-
+--------------------------------------------------------------------------------------------------------------------------
 	
 	
 /*Delete Unused Column*/
@@ -196,6 +198,6 @@ where row_num > 1;
 alter table nashville_housing 
 drop table `Owner Address`, `Tax District`, `Property Address`, `Sale Date`;
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 
