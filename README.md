@@ -1,7 +1,7 @@
 # Portfolio-Project
-Following are the projects I've done to showcase my skills in SQL and Python:
-[1]SQL - Data Exploration : COVID-19 Data
-[2]SQL - Data Manipulation : Nashville Housing Data
-[3]Python - 
-[4]Tableau - https://public.tableau.com/app/profile/priyankajhatheanalyst
+Following are the projects I've done to showcase my skills in SQL and Python: <br />
+[1]SQL - Data Exploration : COVID-19 Data <br />
+[2]SQL - Data Manipulation : Nashville Housing Data <br />
+[3]Python - <br />
+[4]Tableau - https://public.tableau.com/app/profile/priyankajhatheanalyst <br />
 Thank you for reviewing these!
