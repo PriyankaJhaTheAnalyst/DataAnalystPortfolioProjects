@@ -5,4 +5,4 @@
 ### [2]SQL - Data Manipulation : Nashville Housing Data <br />
 ### [3]Python - <br />
 ### [4]Tableau - [Tableau Public Profile](https://public.tableau.com/app/profile/priyankajhatheanalyst) <br />
-##### Thank you for reviewing these!
+##### *Thank you for reviewing these!*
