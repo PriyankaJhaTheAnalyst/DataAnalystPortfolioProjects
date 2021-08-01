@@ -16,7 +16,7 @@
 on to my resume/portfolio website to see screenshots of these Dashboards.*
 
 - [x] Excel - 
-  - Sales Superstore Dataset : [Sales Performance Dashboard] (file:///C:/Users/Kripanand/Documents/Portfolio%20Projects/Sales%20Performance%20Dashboard.htm) <br />
+  - Sales Superstore Dataset : Sales Performance Dashboard <br />
 
 *To view this Excel Dashboard in accurate dimensions, first kindly download them and view them in Microsoft Excel. Otherwise, you can head 
 on to my resume/portfolio website to see screenshots of this workbook.*
