@@ -1,5 +1,5 @@
 # Portfolio-Project
-## Following are the projects in SQL, Python, Tableau & Excel: <br />
+## Following are my projects in SQL, Python, Tableau & Excel: <br />
 #### *This is my portfolio/resume website for you to take a peek at:* <br />
 - [x] SQL - 
   - Data Exploration : COVID-19 Dataset <br />
