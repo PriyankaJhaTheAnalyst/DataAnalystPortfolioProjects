@@ -2,10 +2,13 @@
 ## Following are the projects in SQL, Python, Tableau & Excel: <br />
 #### *This is my portfolio/resume website for you to take a peek at:* <br />
 - [x] SQL - 
-  - Data Exploration : COVID-19 Data <br />
-  - Data Manipulation : Nashville Housing Data <br />
+  - Data Exploration : COVID-19 Dataset <br />
+  - Data Manipulation : Nashville Housing Dataset <br />
 - [ ] Python - <br />
-- [x] Tableau - <br />
+- [x] Tableau - 
+  - Sales Superstore Sample : [Dashboard](https://public.tableau.com/views/Dashboard_16172633718000/CustomerDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
+  - World Bank CO^2 Emissions : [Dashboard](https://public.tableau.com/views/WorldBankCo2Emissions_16149182681650/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
+  - London Bus Safety : [Dashboard](https://public.tableau.com/views/TableauCertificationCourse2/ChartsDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
 - [x] Excel - 
   - Sales Performance Dashboard : Sales Superstore Dataset <br />
 ##### *Thank you for reviewing these!* 🎉
