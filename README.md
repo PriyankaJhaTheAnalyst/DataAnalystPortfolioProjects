@@ -4,7 +4,7 @@
 - [x] SQL - 
   - Data Exploration : COVID-19 Dataset <br />
   - Data Manipulation : Nashville Housing Dataset <br />
-  - 
+
 - [ ] Python - <br />
 
 - [x] Tableau - 
