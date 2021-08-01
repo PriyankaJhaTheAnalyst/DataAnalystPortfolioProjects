@@ -11,4 +11,4 @@
   - London Bus Safety : [Dashboard] (https://public.tableau.com/views/TableauCertificationCourse2/ChartsDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
 - [x] Excel - 
   - Sales Superstore Dataset : [Sales Performance Dashboard] (file:///C:/Users/Kripanand/Documents/Portfolio%20Projects/Sales%20Performance%20Dashboard.htm) <br />
-##### *Thank you for reviewing these!* 🎉
+*Follow THESE links if you want to view these projects*
