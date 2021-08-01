@@ -12,11 +12,9 @@
   - World Bank CO^2 Emissions : [Dashboard] (https://public.tableau.com/views/WorldBankCo2Emissions_16149182681650/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
   - London Bus Safety : [Dashboard] (https://public.tableau.com/views/TableauCertificationCourse2/ChartsDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
 
-*To view these Tableau Projects in accurate dimensions, first kindly download them and then view them in Tableau Desktop. Otherwise, you can head 
-on to my resume/portfolio website to see screenshots of these Dashboards.*
+*To view these Tableau Dashboards, click on these hyperlinks, it will take you to my Tableau Public Profile.*
 
 - [x] Excel - 
-  - Sales Superstore Dataset : Sales Performance Dashboard <br />
+  - Sales Superstore Sample : Sales Performance Dashboard.xlsx <br />
 
-*To view this Excel Dashboard in accurate dimensions, first kindly download them and then view them in Microsoft Excel. Otherwise, you can head 
-on to my resume/portfolio website to see screenshots of this workbook.*
+*To view this Excel Dashboard in accurate dimensions, kindly download it first from this repository and then view them in Microsoft Excel.*
