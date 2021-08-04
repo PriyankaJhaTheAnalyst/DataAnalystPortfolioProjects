@@ -2,8 +2,8 @@
 ## Following are my projects in SQL, Python, Tableau & Excel: <br />
 #### *This is my portfolio/resume website for you to take a peek at:* <br />
 - [x] SQL - 
-  - COVID-19 Data : Data Cleaning <br />
-  - Nashville Housing Data : Data Exploration <br />
+  - COVID-19 Data : Data Cleaning.sql <br />
+  - Nashville Housing Data : Data Exploration.sql <br />
 
 - [x] Python - 
   - <br />
