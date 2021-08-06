@@ -17,8 +17,9 @@
 *To view these Tableau Dashboards, click on these hyperlinks, it will take you to my Tableau Public Profile.*
 
 - [x] Excel - 
-  - Sales Superstore Sample : Excel - Sales Performance Dashboard.xlsx <br />
-  - NetTRON Network Infrastructure Data : Excel - LOOKUP, INDEX MATCH, SUMIFS.xlsx <br />
-  - Shipping Data : Excel - Pivot Tables, Pivot Chart, Slicers.xlsx <br />
+  - Sales Superstore Sample : Sales Performance Dashboard.xlsx <br />
+  - NetTRON Network Infrastructure Data : LOOKUP, INDEX, MATCH, SUMIFS.xlsx <br />
+  - Shipping Data : Pivot Tables, Pivot Chart, Slicers.xlsx <br />
+  - Project Costing Model Data : Scenario Manager, Solver (Data Modeling)
 
-*Kindly download these Excel files, from this repository and then view it in Microsoft Excel.*
+*Kindly download these Excel files from this repository and view it in Microsoft Excel.*
