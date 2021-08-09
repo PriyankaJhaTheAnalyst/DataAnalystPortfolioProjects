@@ -6,7 +6,7 @@
   - Nashville Housing Data : Data Exploration <br />
 
 - [x] Python - 
-  - Movies Industry Dataset : Movies Industry EDA (Exploratory Data Analysis) Project <br />
+  - Movies Industry Dataset : EDA (Exploratory Data Analysis) Project <br />
 *Read the complete Markdown Analysis of this project : [HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)*<br />
 
 - [x] Tableau - 
