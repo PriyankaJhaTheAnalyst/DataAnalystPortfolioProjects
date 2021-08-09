@@ -7,7 +7,7 @@
 
 - [x] Python - 
   - Movies Industry Dataset : Movies Industry EDA (Exploratory Data Analysis) Project <br />
-*Read the complete Markdown Analysis of this project [here](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md) *
+*Read the complete Markdown Analysis of this project:[HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)*
 
 - [x] Tableau - 
   - Sales Superstore Sample Data : 
