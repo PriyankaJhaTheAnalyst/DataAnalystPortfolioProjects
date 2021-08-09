@@ -1,7 +1,7 @@
 
 /*
 Cleaning Data in SQL 
-Skills used : CREATE, UPDATE, SELECT, CTE, JOINS 
+Skills used : CREATE, UPDATE, SELECT, CTE, JOINS, OREDR BY, GROUP BY
 */
 
 
