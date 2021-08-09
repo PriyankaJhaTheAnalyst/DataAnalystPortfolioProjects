@@ -1,13 +1,13 @@
 # Portfolio-Project
 ## Following are my projects in SQL, Python, Tableau & Excel: <br />
-#### *This is my portfolio/resume website for you to take a peek at:* <br />
+#### *You can also take a look at my personal website : [www.priyankajha24.wixsite.com](www.priyankajha24.wixsite.com/aboutme)* <br />
 - [x] SQL - 
   - COVID-19 Data : Data Cleaning <br />
   - Nashville Housing Data : Data Exploration <br />
 
 - [x] Python - 
   - Movies Industry Dataset : Movies Industry EDA (Exploratory Data Analysis) Project <br />
-*Read the complete Markdown Analysis of this project:[HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)*
+*Read the complete Markdown Analysis of this project : [HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)*<br />
 
 - [x] Tableau - 
   - Sales Superstore Sample Data : 
