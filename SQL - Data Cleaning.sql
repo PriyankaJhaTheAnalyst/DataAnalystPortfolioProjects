@@ -1,6 +1,7 @@
 
 /*
-Cleaning Data in SQL Queries
+Cleaning Data in SQL 
+Skills used : CREATE, UPDATE, SELECT, CTE, JOINS 
 */
 
 
