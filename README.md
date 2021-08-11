@@ -2,8 +2,8 @@
 ## Following are my projects in SQL, Python, Tableau & Excel: <br />
 #### *You can also take a look at my personal website : [www.priyankajha24.wixsite.com](www.priyankajha24.wixsite.com/aboutme)* <br />
 - [x] SQL - 
-  - COVID-19 Data : Data Cleaning <br />
-  - Nashville Housing Data : Data Exploration <br />
+  - COVID-19 Data : Data Exploration <br />
+  - Nashville Housing Data : Data Cleaning  <br />
 
 - [x] Python - 
   - Movies Industry Dataset : EDA (Exploratory Data Analysis) Project <br />
