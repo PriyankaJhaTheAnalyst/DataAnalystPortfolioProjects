@@ -14,19 +14,24 @@
 - [x] Tableau - 
   - Sales SuperStore Dataset : https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/SuperStoreDataset5Dashboards/1KPIDashboard <br />
       - KPI Dashboard
+
 ![KPI Dashboard](visuals/KPIDashboard.png)
 
       - Top Down Dashboard
+      
 ![Top Down Dashboard](visuals/TopDownDashboard.png)
 
       - Q&A Dashboard
+      
 ![Q&A Dashboard](visuals/Q&ADashboard.png)
 
       - Bottom Up Dashboard
+      
 ![Bottom Up Dashboard](visuals/BottomUpDashboard.png)
 
       - Geo Chart
-![Geo Dashboard](visuals/GeoDashboard.png)
+      
+![Geo Chart](visuals/GeoChart.png)
 
 
 
