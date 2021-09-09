@@ -10,9 +10,9 @@
 *Read the complete Markdown Analysis of this project : [HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)*<br />
 
 - [x] Tableau - 
-  - Sales Superstore Sample Data : 
-    - [Dashboard](https://public.tableau.com/views/Dashboard_16172633718000/CustomerDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
-    - [Dual Layer GeoPlot](https://public.tableau.com/views/Week4Assignment_16171031144630/DualLayerChart?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
+  - Sales SuperStore Dataset : 
+    - [Deep Data Analysis](https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/SuperStoreDataset5Dashboards/1KPIDashboard) <br />
+![KPI Dashboard](visuals/1 KPI Dashboard.png)
   - World Bank CO2 Emissions Data : [Dashboard](https://public.tableau.com/views/WorldBankCo2Emissions_16149182681650/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
   - London Bus Safety Data : [Dashboard](https://public.tableau.com/views/TableauCertificationCourse2/ChartsDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) <br /> 
 
