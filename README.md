@@ -12,7 +12,7 @@
 - [x] Tableau - 
   - Sales SuperStore Dataset : 
     - [Deep Data Analysis](https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/SuperStoreDataset5Dashboards/1KPIDashboard) <br />
-![KPI Dashboard](visuals/1 KPI Dashboard.png)
+![KPI Dashboard](visuals/1_KPI_Dashboard.png)
   - World Bank CO2 Emissions Data : [Dashboard](https://public.tableau.com/views/WorldBankCo2Emissions_16149182681650/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
   - London Bus Safety Data : [Dashboard](https://public.tableau.com/views/TableauCertificationCourse2/ChartsDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) <br /> 
 
