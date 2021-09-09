@@ -3,7 +3,9 @@
 #### *You can also take a look at my personal website : [www.priyankajha24.wixsite.com](www.priyankajha24.wixsite.com/aboutme)* <br />
 - [x] SQL - 
   - COVID-19 Data : Data Exploration <br />
-  - Nashville Housing Data : Data Cleaning  <br />
+  - Nashville Housing Data : Data Cleaning  <br /
+
+*CLick on the filename in the repo to review the sql scripts.*
 
 - [x] Python - 
   - Movies Industry Dataset : EDA (Exploratory Data Analysis) Project <br />
@@ -13,7 +15,7 @@
   - Sales SuperStore Dataset : 
     - [Deep Data Analysis](https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/SuperStoreDataset5Dashboards/1KPIDashboard) <br />
 
-![KPI Dashboard](visuals/1_KPI_Dashboard.png)
+![KPI Dashboard](visuals/KPIDashboard.png)
 
   - World Bank CO2 Emissions Data : [Dashboard](https://public.tableau.com/views/WorldBankCo2Emissions_16149182681650/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link) <br />
   - London Bus Safety Data : [Dashboard](https://public.tableau.com/views/TableauCertificationCourse2/ChartsDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) <br /> 
