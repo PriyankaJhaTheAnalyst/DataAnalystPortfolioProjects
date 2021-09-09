@@ -8,11 +8,11 @@
 *CLick on the filename in the repo to review the sql scripts.*
 
 - [x] Python - 
-  - Movies Industry Dataset : EDA (Exploratory Data Analysis) Project <br />
-*Read the complete Markdown Analysis of this project : [HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)*<br />
+  - Movies Industry Dataset: EDA (Exploratory Data Analysis) Project <br />
+*Read the complete Markdown Analysis of this project : **[HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)**<br />
 
 - [x] Tableau - 
-  - Sales SuperStore Dataset : https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/SuperStoreDataset5Dashboards/1KPIDashboard <br />
+- Sales SuperStore Dataset: https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/SuperStoreDataset5Dashboards/1KPIDashboard <br />
       
       - KPI Dashboard
 
