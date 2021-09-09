@@ -1,18 +1,18 @@
 # Portfolio-Project
 ## Following are my projects in SQL, Python, Tableau & Excel: <br />
 #### *You can also take a look at my personal website : [www.priyankajha24.wixsite.com](www.priyankajha24.wixsite.com/aboutme)* <br />
-- [x] SQL - 
-  - COVID-19 Data : Data Exploration <br />
-  - Nashville Housing Data : Data Cleaning  <br /
+- [x] **SQL** - 
+  - COVID-19 Data: Data Exploration <br />
+  - Nashville Housing Data: Data Cleaning  <br /
 
 *CLick on the filename in the repo to review the sql scripts.*
 
-- [x] Python - 
+- [x] **Python** - 
   - Movies Industry Dataset: EDA (Exploratory Data Analysis) Project <br />
-*Read the complete Markdown Analysis of this project : **[HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)**<br />
+*Read the complete Markdown Analysis of this project :* **[HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)**<br />
 
-- [x] Tableau - 
-- Sales SuperStore Dataset: https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/SuperStoreDataset5Dashboards/1KPIDashboard <br />
+- [x] **Tableau** - 
+- Sales SuperStore Dataset: https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/SuperStoreDataset5Dashboards/1KPIDashboard 
       
       - KPI Dashboard
 
@@ -37,19 +37,27 @@
 
 
 
-- World Bank CO2 Emissions Dataset: https://public.tableau.com/views/WorldBankCo2Emissions_16149182681650/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link <br />
+- World Bank CO2 Emissions Dataset: https://public.tableau.com/views/WorldBankCo2Emissions_16149182681650/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link 
 
 ![World Bank CO2 Emission](visuals/WorldBankCO2Emission.png)
 
 
-- London Bus Safety Dataset: https://public.tableau.com/views/TableauCertificationCourse2/ChartsDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link <br /> 
+- London Bus Safety Dataset: https://public.tableau.com/views/TableauCertificationCourse2/ChartsDashboard?:language=en-GB&:display_count=n&:origin=viz_share_link 
 
 ![London Bus Safety](visuals/LondonBusSafety.png)
+
+- Retail Pricing Analytics: https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/RetailPriceAnalyticsDashboard/RetailPricingAnalytics#2
+
+![Retail Price Analytics](visuals/RetailPricingAnalytics.png)
+
+- E-commerce Sales: https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/eCommerceSales_16310934566250/ExploratoryVisualAnalysis
+
+![E-commerce Sales](visuals/E-commerceRetail.png)
 
 
 *To view these Tableau Dashboards, click on the highlighted text, it will take you to my Tableau Public Profile.*
 
-- [x] Excel - 
+- [x] **Excel** - 
   - Sales Superstore Sample : Sales Performance Dashboard <br />
   - NetTRON Network Infrastructure Data : LOOKUP, INDEX, MATCH, SUMIFS <br />
   - Shipping Data : Pivot Tables, Pivot Chart, Slicers <br />
