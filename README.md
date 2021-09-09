@@ -5,7 +5,7 @@
   - COVID-19 Data: Data Exploration <br />
   - Nashville Housing Data: Data Cleaning  <br /
 
-*CLick on the filename in the repo to review the sql scripts.*
+*Click on the filename in the repo to review the sql scripts.*
 
 - [x] **Python** - 
   - Movies Industry Dataset: EDA (Exploratory Data Analysis) Project <br />
@@ -57,6 +57,10 @@
 
 - [x] **Excel** - 
   - Sales Superstore Sample : Sales Performance Dashboard <br />
+
+![Dashboard](excel/Dashboards.png)
+
+
   - NetTRON Network Infrastructure Data : LOOKUP, INDEX, MATCH, SUMIFS <br />
   - Shipping Data : Pivot Tables, Pivot Chart, Slicers <br />
   - Project Costing Model Data : Scenario Manager, Solver (Data Modeling)
