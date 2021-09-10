@@ -3,7 +3,7 @@
 #### *You can also take a look at my personal website : [www.priyankajha24.wixsite.com](www.priyankajha24.wixsite.com/aboutme)* <br />
 - [x] **SQL** - 
   - COVID-19 Data: Data Exploration <br />
-  - Nashville Housing Data: Data Cleaning  <br /
+  - Nashville Housing Data: Data Cleaning  <br />
 
 *Click on the filename in the repo to review the sql scripts.*
 
