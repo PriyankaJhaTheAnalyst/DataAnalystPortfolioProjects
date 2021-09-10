@@ -2,15 +2,18 @@
 ## Following are my projects in SQL, Python, Tableau & Excel: <br />
 #### *You can also take a look at my personal website : [www.priyankajha24.wixsite.com](www.priyankajha24.wixsite.com/aboutme)* <br />
 - [x] **SQL** - 
-  - COVID-19 Data: Data Exploration <br />
-  - Nashville Housing Data: Data Cleaning  <br />
+  - Nashville Housing Data: Data Cleaning <br />
+  - 
+*Review the SQL Script:* **[HERE](https://github.com/PriyankaJhaTheAnalyst/DataAnalystPortfolioProjects/blob/main/SQL%20-%20Data%20Cleaning.sql)**<br />
 
-*Click on the filename in the repo to review the sql scripts.*
+  - Nashville Housing Data: Data Exploration  <br />
+
+*Review the SQL Script:* **[HERE](https://github.com/PriyankaJhaTheAnalyst/DataAnalystPortfolioProjects/blob/main/SQL%20-%20Data%20Exploration.sql)**<br />
 
 - [x] **Python** - 
   - Movies Industry Dataset: EDA (Exploratory Data Analysis) Project <br />
 
-*Read the complete Project Analysis in Markdown :* **[HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)**<br />
+*Read the complete Project Analysis in Markdown:* **[HERE](https://github.com/PriyankaJhaTheAnalyst/Python_MoviesIndustry_EDA/blob/main/README.md)**<br />
 
 - [x] **Tableau** - 
 
@@ -18,7 +21,7 @@
 
 - Sales SuperStore Dataset: https://public.tableau.com/app/profile/priyankajhatheanalyst/viz/SuperStoreDataset5Dashboards/1KPIDashboard 
       
-      - KPI Dashboard
+      1 KPI Dashboard
 
 ![KPI Dashboard](visuals/KPIDashboard.png)
 
