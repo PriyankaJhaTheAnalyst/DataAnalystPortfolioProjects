@@ -1,0 +1,339 @@
+-- BUSINESS INTELLIGENCE CHALLENGE
+
+-- TASK 1 - EXPLORATION
+-- QUESTION 1 - How many projects are in the dataset?
+
+select
+	count(*)
+from
+	public.projects
+where
+	id is not null;
+
+-- QUESTION 2 - Explore the data and dive into any irregularities.
+
+-- DUPLICATE IDS
+-- TABLE 1 - PROJECTS
+
+select
+	id,
+	COUNT(*)
+from
+	public.projects
+group by
+	id
+having
+	count(*)>1;
+
+-- TABLE 2 - BIDPACKAGES
+
+select
+	id,
+	COUNT(*)
+from
+	public.bidpackages
+group by
+	id
+having
+	count(*)>1;
+	
+-- TABLE 3 - BIDREQUESTS
+
+select
+	id,
+	COUNT(*)
+from
+	public.bidrequests
+group by
+	id
+having
+	count(*)>1;
+
+-- TABLE 4 - SUBCONTRACTORS
+
+select
+	id,
+	COUNT(*)
+from
+	public.subcontractors
+group by
+	id
+having
+	count(*)>1;
+
+-- NULL VALUES
+-- TABLE 1 - PROJECTS
+	
+select
+	count(sbquery)
+from
+	(
+	select
+		*
+	from
+		public.projects
+	where
+		id is null
+		or status is null
+		or createdat is null
+		or updatedat is null
+		or deletedat is null
+		or startson is null
+		or endson is null
+		or budget is null) as sbquery;
+
+-- TABLE 2 - BIDPACKAGES
+	
+select
+	count(sbquery)
+from
+	(
+	select
+		*
+	from
+		public.bidpackages
+	where
+		id is null
+		or status is null
+		or createdat is null
+		or updatedat is null
+		or deletedat is null
+		or bidsdueat is null
+		or projectid is null
+		or currency is null
+		or budget is null) as sbquery;
+	
+-- TABLE 3 - BIDPACKAGES
+	
+select
+	count(sbquery)
+from
+	(
+	select
+		*
+	from
+		public.bidrequests
+	where
+		id is null
+		or status is null
+		or createdat is null
+		or updatedat is null
+		or deletedat is null
+		or subcontractorid is null
+		or bidpackageid is null
+		or declinedreason is null) as sbquery;
+
+-- TABLE 4 - SUBCONTRACTORS
+	
+select
+	count(sbquery)
+from
+	(
+	select
+		*
+	from
+		public.subcontractors 
+	where
+		id is null
+		or "type" is null
+		or createdat is null
+		or updatedat is null
+		or deletedat is null
+		or companysize is null
+		or countrycode is null) as sbquery;
+	
+-- QUESTION 3 - What geographical area are we currently covering?
+
+select
+	distinct countrycode
+from
+	public.subcontractors
+where
+	countrycode is not null;
+
+
+-- QUESTION 4 - BIDPROJECTS REGISTERED BY MONTH 
+
+select
+	to_char(to_timestamp (date_part('month', createdat)::text, 'MM'), 'Month')
+ as Month_Name,
+	count(id) as Number_of_Projects
+from
+	public.projects
+group by
+	Month_Name
+order by
+	 Number_of_Projects desc;
+
+-- QUESTION 5 - AVERAGE BUDGET OF ALL BID PROJECTS
+
+select
+	round(avg(budget)::decimal, 0) as Budget
+from
+	public.bidpackages;
+	
+-- QUESTION 6 - TOTAL SUM OF ALL BID PROJECTS
+
+select
+	round(sum(budget)::decimal, 0) as Budget
+from
+	public.bidpackages;
+
+-- QUESTION 7 - NUMBER OF BID REQUESTS BY STATUS
+
+select
+	status,
+	count(*) as Number_of_Bidrequests
+from
+	bidrequests
+group by
+	status
+order by
+	Number_of_Bidrequests desc;
+
+--------------------------------------------------------------------------------------------------------------------------
+
+-- TASK 2 - ANALYSE
+-- QUESTION 1 - Which subcontractors are sent bid requests most often?
+
+select
+	subcontractorid,
+	count(*) as sent_bid_requests
+from
+	public.bidrequests
+where
+	status = 'invited'
+	or status = 'pendingInvite'
+group by
+	subcontractorid
+order by
+	sent_bid_requests desc
+limit 5;
+
+-- QUESTION 2 - What is the average time between the creation of a project and the creation of the first bid request
+-- within that project?
+
+select
+	avg(sbquery.time_diff) as average_time_diff
+from
+	(
+	select
+		min(br.createdat) - min(p.createdat) as time_diff
+	from
+		public.projects p
+	join public.bidpackages bp
+	on
+		p.id = bp.projectid
+	join public.bidrequests br
+	on
+		br.bidpackageid = bp.id
+	group by
+		br.id
+		) as sbquery;
+	
+-- QUESTION 3 -  WHICH COMPANY SIZE OF SUBCONTRACTORS HAVE THE HIGHEST NUMBERS OF BIDAWARDS?
+
+select
+	s.companysize as Company_Size,
+	count(*) as Number_of_bidAwards
+from
+	public.bidrequests br
+join public.subcontractors s 
+on
+	s.id = br.subcontractorid
+where
+	br.status = 'bidAwarded'
+	and s.companysize is not null
+group by
+	Company_Size
+order by 
+	Number_of_bidAwards desc;
+
+-- QUESTION 4 -  NUMBER ONE REASON OF DECILINING THE BID REQUEST OF SUBCONTRACTORS
+
+select
+	declinedreason,
+	count(*) as Number_of_Declines
+from
+	public.bidrequests
+where
+	declinedreason is not null
+group by
+	declinedreason
+order by
+	Number_of_Declines desc;
+
+	
+-- QUESTION 5 - The product team would like to know whether the conversion rate of bid requests, from the initial
+-- status to status “bidSubmitted” is better or worse depending on the type of subcontractor that is being
+-- invited.
+
+-- CONVERSION RATE OF NETWORK SUBCONTRACTORS
+
+select
+	(
+	select
+		cast(count(distinct s.id) as numeric)
+	from
+		public.subcontractors s
+	join public.bidrequests b 
+	on
+		b.subcontractorid = s.id
+	where
+		s."type" = 'network'
+		and b.status = 'bidSubmitted') / (
+	select
+		cast(count(distinct s.id) as numeric)
+	from
+		public.subcontractors s
+	join public.bidrequests b 
+	on
+		b.subcontractorid = s.id
+	where
+		s."type" = 'network'
+		and status = 'invited') * 100 as Conversion_Rate_of_Network_Subcontractors;
+	
+-- CONVERSION RATE OF COMPANY SUBCONTRACTORS
+
+select
+	(
+	select
+		cast(count(distinct s.id) as numeric)
+	from
+		public.subcontractors s
+	join public.bidrequests b 
+	on
+		b.subcontractorid = s.id
+	where
+		s."type" = 'company'
+		and b.status = 'bidSubmitted') / (
+	select
+		cast(count(distinct s.id) as numeric)
+	from
+		public.subcontractors s
+	join public.bidrequests b 
+	on
+		b.subcontractorid = s.id
+	where
+		s."type" = 'company'
+		and status = 'invited') * 100 as Conversion_Rate_of_Company_Subcontractors;
+	
+--------------------------------------------------------------------------------------------------------------------------
+
+-- TASK 3 - RECOMMENDATION
+-- QESTION 1 - SEGMENTATION OF SUBCONTRACTORS BY COUNTRY
+
+select
+	countrycode,
+	count(id) as Number_of_Subcontractors
+from
+	public.subcontractors
+where
+	countrycode is not null
+group by
+	countrycode
+order by
+	Number_of_Subcontractors desc;
+--------------------------------------------------------------------------------------------------------------------------
+	
+	
