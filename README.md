@@ -1,6 +1,12 @@
-# Portfolio-Project
+# Portfolio Projects
 ## Following are my projects in SQL, Python, Tableau & Excel: <br />
-#### *You can also take a look at my personal website : [www.priyankajha24.wixsite.com](www.priyankajha24.wixsite.com/aboutme)* <br />
+#### *You can take a look at my personal website : [www.priyankajha24.wixsite.com](www.priyankajha24.wixsite.com/aboutme)* <br />
+#### *You can also take a look at my Linkedin : [PriyankaJhaTheAnalyst](https://www.linkedin.com/in/priyankajhatheanalyst/)* <br />
+
+- [x] **SQL & Tableau** - 
+  - Instagram Clone Data Analysis Dashboard: https://public.tableau.com/views/InstagramCloneDataAnalysisDashboard/InstagramCloneDataAnalysisDashboard?:language=en-US&:display_count=n&:origin=viz_share_link <br />
+*Review the Data Insertion SQL Script:* **[HERE]()**<br />
+*Review the Data Exploration SQL Script:* **[HERE]()**<br />
 
 - [x] **Hadoop (Hive)** - 
   - NYC Yellow Taxi Records: Data Analysis <br />
@@ -16,7 +22,6 @@
 - [x] **PostgreSQL** - 
   - Business Intelligence Challenge <br />
 *Review the PostgreSQL Script:* **[HERE](https://github.com/PriyankaJhaTheAnalyst/DataAnalystPortfolioProjects/blob/main/PostgreSQL-BI-CHALLENGE)**<br />
-
 *Review the Google Slides Deck to see the Data Visualizations:* **[HERE](https://drive.google.com/file/d/1JIDnsaLXAx2qnWM86yfrRKLWF5B_ofHU/view?usp=sharing)**<br />
 
 - [x] **Python** - 
